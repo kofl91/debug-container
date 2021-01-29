@@ -27,7 +27,7 @@ RUN wget https://get.helm.sh/helm-canary-linux-amd64.tar.gz && \
 RUN wget https://releases.hashicorp.com/vault/1.4.3/vault_1.4.3_linux_amd64.zip && \
         unzip vault_1.4.3_linux_amd64.zip && \
         mv vault /usr/local/bin
-RUN wget https://downloads.apache.org/kafka/2.5.0/kafka_2.12-2.5.0.tgz && \
+RUN wget https://downloads.apache.org/kafka/2.7.0/kafka_2.13-2.7.0.tgz && \
         tar zxf kafka_2.13-2.7.0.tgz && \
         mv kafka_2.13-2.7.0 /kafka
 WORKDIR /
