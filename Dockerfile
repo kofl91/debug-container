@@ -55,3 +55,6 @@ RUN git clone https://github.com/bats-core/bats-core.git && \
         wget https://raw.githubusercontent.com/bats-core/bats-support/master/src/output.bash && \
         chmod +x *.bash && \
         mv *.bash /usr/local/lib/
+        
+RUN apk add --update npm
+RUN npm install -g newman
