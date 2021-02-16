@@ -58,3 +58,4 @@ RUN git clone https://github.com/bats-core/bats-core.git && \
         
 RUN apk add --update npm
 RUN npm install -g newman
+RUN npm install -g @alexlafroscia/yaml-merge
