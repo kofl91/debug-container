@@ -7,4 +7,4 @@ RUN wget https://github.com/mikefarah/yq/releases/download/3.4.1/yq_linux_amd64 
 RUN chmod +x /usr/bin/yq3
 RUN wget https://github.com/mikefarah/yq/releases/download/v4.5.1/yq_linux_amd64 -O /usr/bin/yq4 
 RUN chmod +x /usr/bin/yq4
-RUN sudo apt-get install kafkacat
+RUN apt-get install kafkacat
